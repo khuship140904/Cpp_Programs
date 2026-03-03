@@ -1,19 +1,14 @@
 #include <iostream>
 using namespace std;
 
+//ternary statement -- condition?stt1:stt2;
 int main(){
-    //question - find character lowercase and uppercase
-    char character;
+    int n = 45;
 
-    cout<<"enter the character : "<<endl;
-    cin>>character;
+    cout<< (n >= 0 ? "positive" : "negative")<<endl;
 
-    if (character>='a' && character<='z')
-    {
-        cout<<"lowercase"<<endl;
-    }else{
-        cout<<"uppercase"<<endl;
-    }
+    return 0 ;
+
+
     
-    return 0;
 }
